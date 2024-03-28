@@ -1,6 +1,6 @@
 # Brutefrc Bitcoin Brute Forcer
 
-A Bitcoin wallet collider that brute forces random wallet addresses
+A Bitcoin wallet collider that brute forces random wallet addresses stored in a static database
 # Dependencies
 
 <a href="https://www.python.org/downloads/">Python 3.9</a> or higher
