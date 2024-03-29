@@ -77,7 +77,7 @@ def main(database, args):
 
 def print_help():
     print('''By default this program runs with parameters:
-python3 plutus.py verbose=0 substring=8
+python3 Brutefrc.py verbose=0 substring=8
 
 verbose: must be 0 or 1. If 1, then every bitcoin address that gets bruteforced will be printed to the terminal. This has the potential to slow the program down. An input of 0 will not print anything to the terminal and the bruteforcing will work silently. By default verbose is 0.
 
