@@ -1,4 +1,4 @@
-# Brutefrc Bitcoin Brute Forcer
+# Brutefrc: Bitcoin Brute Forcer
 
 A Bitcoin wallet collider that brute forces random wallet addresses stored in a static database
 # Dependencies
@@ -48,10 +48,6 @@ This program also utilizes multiprocessing through the `multiprocessing.Process(
 It takes `0.002` seconds for this progam to brute force a __single__ Bitcoin address. 
 
 However, through `multiprocessing.Process()` a concurrent process is created for every CPU your computer has. So this program can brute force a single address at a speed of `0.002 ÷ cpu_count()` seconds.
-
-# Database FAQ
-
-An offline database is used to find the balance of generated Bitcoin addresses. Visit <a href="/database/">/database</a> for information.
 
 # Parameters
 
